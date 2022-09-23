@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title "Encriptador"></title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1> ENCRIPTADOR</h1>
+            </div>
+        </header>
+        <main>
+            <form>
+            <p >Digite un texto (hasta 128 caracteres)</p>
+            
+             <Textarea id="textarea" cols="70" rows="5" id="mensaje" maxlength="128" 
+             placeholder="Su texto aqui">  
+             </Textarea>
+          
+           <div>
+            <input class="nuevo" type="button" value="Nuevo Texto" onclick="limpiaTexto();">
+            <input class="encripta" id="encriptaId" type="button" value="Encriptar" onclick="encriptaF()" disabled="">
+            <input class="desencripta" id="desencriptaId" type="button" value="Desencriptar" onclick="desencriptaF()" disabled="">
+           </div>
+                        
+            </form>
+
+        </main>
+
+        <footer>
+            <p class="copyright">&copy; ECC-WPA- 2022</p>
+        </footer>
+
+       <script src="encripta.js"></script>
+    </body>
+</html> 
+ 
+
+
+
+
